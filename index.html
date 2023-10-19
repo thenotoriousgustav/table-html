@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="dist/rpgui.css" rel="stylesheet" type="text/css">
+    <script src="dist/rpgui.js"></script>
+    <title>Form Registrasi</title>
+</head>
+
+<body class="rpgui-content">
+    <div class="rpgui-container framed">
+        <!-- TABLE -->
+        <table border="1px solid black">
+            <!-- TABLE HEADER -->
+            <th colspan="2">
+                <h1>FORM REGISTRASI</h1>
+            </th>
+            <!-- NAMA LENGKAP -->
+            <tr>
+                <td>
+                    <p>Nama Lengkap :</p>
+                </td>
+                <td>
+                    <input type="text" id="full_name" placeholder="Ujang Kenceng...">
+                </td>
+            </tr>
+            <!-- JENIS KELAMIN -->
+            <tr>
+                <td>
+                    <p>Jenis Kelamin :</p>
+                </td>
+                <td>
+                    <input class="rpgui-radio " type="radio" name="gender" id="radio1" value="pria">
+                    <label for="radio1">Pria</label>
+                    <input class="rpgui-radio " type="radio" name="gender" id="radio2" value="wanita">
+                    <label for="radio2">Wanita</label>
+                </td>
+            </tr>
+            <!-- TANGGAL LAHIR -->
+            <tr>
+                <td>
+                    <p>Tanggal Lahir :</p>
+                </td>
+                <td>
+                    <input type="date" name="birth-date" id="date1">
+                </td>
+            </tr>
+            <!-- ALAMAT LENGKAP -->
+            <tr>
+                <td>
+                    <p>Alamat Lengkap :</p>
+                </td>
+                <td>
+                    <textarea name="" id="" cols="30" rows="5" placeholder="Alamat..."></textarea>
+                </td>
+            </tr>
+            <!-- HOBI -->
+            <tr>
+                <td>
+                    <p>Hobi Anda :</p>
+                </td>
+                <td>
+                    <input class="rpgui-checkbox golden" type="checkbox" name="hobby" id="box1">
+                    <label for="box1">Olahraga</label>
+                    <input class="rpgui-checkbox golden" type="checkbox" name="hobby" id="box2">
+                    <label for="box2">Membaca</label>
+                    <input class="rpgui-checkbox golden" type="checkbox" name="hobby" id="box3">
+                    <label for="box3">Menari</label>
+                </td>
+            </tr>
+            <!-- BUTTON  -->
+            <tr>
+                <td></td>
+                <td>
+                    <button class="rpgui-button " type="button" style="margin-right: 2rem;">
+                        <p>Simpan</p>
+                    </button>
+                    <button class="rpgui-button" type="button">
+                        <p>Batal</p>
+                    </button>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="rpgui-container framed-golden" style="margin-left: 2rem;">
+        <h1>Kelompok Penerbang Roket</h1>
+        <ul class="rpgui-list" size="6" style="padding: 10px;">
+            <li>Gustam Rheza Mahendra</li>
+            <li>Alwan Afif Fahis</li>
+            <li>M Rafli Haikal</li>
+            <li>Risky Pratama</li>
+            <li>M Rizky Fadillah</li>
+            <li>Bhimo Lanang Prasetyo</li>
+        </ul>
+    </div>
+</body>
+
+</html>
